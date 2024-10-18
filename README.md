@@ -1,7 +1,7 @@
 # cricbuzz_rapidapi_airflow-fucn-dataflow-bigquery
 # I’m using Apache Airflow with DAGs to fetch ODI cricket ranking data from Cricbuzz's Rapido API. The data is saved as a .csv file in a cloud storage bucket. Then, a Cloud Function triggers a Dataflow job to process the .csv file and store the data in BigQuery.
 # cloud_storage_bucker
-![cloud_storage_bucker_1](![cloud_storage_bucker_1](https://github.com/user-attachments/assets/e029e5f5-84bf-4b47-ab0c-1bd5fd8e52fe)
+(![cloud_storage_bucker_1](https://github.com/user-attachments/assets/e029e5f5-84bf-4b47-ab0c-1bd5fd8e52fe)
 # cloud_composer
 ![cloud_composer_1](https://github.com/user-attachments/assets/0c56ca44-a2de-4a86-bde1-6870e5a0a886)
 # airflow
