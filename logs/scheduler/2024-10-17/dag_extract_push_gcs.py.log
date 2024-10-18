@@ -1,0 +1,677 @@
+[2024-10-17T06:17:34.889+0000] {processor.py:186} INFO - Started process (PID=2446) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:34.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:17:34.895+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:17:34.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:34.926+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:17:34.922+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:17:34.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:34.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.091 seconds
+[2024-10-17T06:17:57.742+0000] {processor.py:186} INFO - Started process (PID=2473) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:57.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:17:57.749+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:17:57.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:57.778+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:17:57.776+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:17:57.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:17:57.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.085 seconds
+[2024-10-17T06:18:28.339+0000] {processor.py:186} INFO - Started process (PID=2535) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:28.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:18:28.344+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:18:28.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:28.367+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:18:28.365+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:18:28.368+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:28.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.060 seconds
+[2024-10-17T06:18:59.087+0000] {processor.py:186} INFO - Started process (PID=2596) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:59.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:18:59.093+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:18:59.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:59.122+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:18:59.119+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:18:59.123+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:18:59.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.076 seconds
+[2024-10-17T06:19:29.958+0000] {processor.py:186} INFO - Started process (PID=2659) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:19:29.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:19:29.964+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:19:29.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:19:29.988+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:19:29.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:19:29.989+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:19:30.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.078 seconds
+[2024-10-17T06:20:00.368+0000] {processor.py:186} INFO - Started process (PID=2722) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:00.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:20:00.373+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:20:00.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:00.400+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:20:00.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:20:00.401+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:00.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.062 seconds
+[2024-10-17T06:20:30.518+0000] {processor.py:186} INFO - Started process (PID=2762) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:30.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:20:30.526+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:20:30.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:30.553+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:20:30.550+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:20:30.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:20:30.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.088 seconds
+[2024-10-17T06:21:02.640+0000] {processor.py:186} INFO - Started process (PID=2825) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:02.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:21:02.644+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:21:02.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:02.667+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:21:02.665+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:21:02.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:02.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.054 seconds
+[2024-10-17T06:21:35.695+0000] {processor.py:186} INFO - Started process (PID=2888) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:35.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:21:35.700+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:21:35.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:35.724+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:21:35.722+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:21:35.726+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:21:35.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.060 seconds
+[2024-10-17T06:22:08.362+0000] {processor.py:186} INFO - Started process (PID=2951) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:08.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:22:08.368+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:22:08.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:08.391+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:22:08.388+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:22:08.392+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:08.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.060 seconds
+[2024-10-17T06:22:41.523+0000] {processor.py:186} INFO - Started process (PID=3014) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:41.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:22:41.537+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:22:41.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:41.632+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:22:41.628+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:22:41.635+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:22:41.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.177 seconds
+[2024-10-17T06:25:05.141+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:05.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:25:05.174+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:25:05.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:05.240+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:25:05.228+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:25:05.242+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:05.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.336 seconds
+[2024-10-17T06:25:36.418+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:36.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:25:36.426+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:25:36.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:36.480+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:25:36.476+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_extract_push_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_push_gcs.py", line 27
+    bash_command='C:\Users\sandh\OneDrive\Documents\akhil_projects\AIRFLOW_project\dags\extract_and_push_gcs.py'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-10-17T06:25:36.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:25:36.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.112 seconds
+[2024-10-17T06:30:06.472+0000] {processor.py:186} INFO - Started process (PID=664) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:06.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:30:06.476+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:06.519+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:06.628+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.625+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:fetch_cricket_stats
+[2024-10-17T06:30:06.641+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.641+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:fetch_cricket_stats
+[2024-10-17T06:30:06.648+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.648+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:fetch_cricket_stats
+[2024-10-17T06:30:06.657+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.656+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:fetch_cricket_stats
+[2024-10-17T06:30:06.664+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.664+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:fetch_cricket_stats
+[2024-10-17T06:30:06.673+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.673+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:fetch_cricket_stats
+[2024-10-17T06:30:06.680+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.680+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:fetch_cricket_stats
+[2024-10-17T06:30:06.681+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:30:06.694+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.694+0000] {dag.py:3262} INFO - Creating ORM DAG for fetch_cricket_stats
+[2024-10-17T06:30:06.706+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:06.705+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:30:06.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.264 seconds
+[2024-10-17T06:30:36.993+0000] {processor.py:186} INFO - Started process (PID=727) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:36.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:30:36.995+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:36.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:37.016+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:30:37.034+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:37.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:30:37.056+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:30:37.055+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:30:37.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.096 seconds
+[2024-10-17T06:31:08.813+0000] {processor.py:186} INFO - Started process (PID=790) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:08.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:31:08.821+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:08.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:09.506+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:14.506+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:14.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:31:14.931+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:14.929+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:31:15.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 6.512 seconds
+[2024-10-17T06:31:45.845+0000] {processor.py:186} INFO - Started process (PID=854) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:45.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:31:45.853+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:45.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:45.907+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:31:45.963+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:45.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:31:46.049+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:31:46.048+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:31:46.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.294 seconds
+[2024-10-17T06:32:17.067+0000] {processor.py:186} INFO - Started process (PID=917) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:17.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:32:17.071+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:17.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:17.100+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:17.126+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:17.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:32:17.168+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:17.167+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:32:17.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.141 seconds
+[2024-10-17T06:32:47.377+0000] {processor.py:186} INFO - Started process (PID=980) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:47.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:32:47.381+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:47.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:47.419+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:32:47.438+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:47.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:32:47.460+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:32:47.459+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:32:47.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.110 seconds
+[2024-10-17T06:33:17.971+0000] {processor.py:186} INFO - Started process (PID=1043) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:17.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:33:17.974+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:17.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:17.992+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:18.009+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:18.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:33:18.033+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:18.033+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:33:18.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.092 seconds
+[2024-10-17T06:33:48.350+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:48.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:33:48.353+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:48.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:48.374+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:33:48.397+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:48.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:33:48.420+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:33:48.420+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:33:48.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.097 seconds
+[2024-10-17T06:34:19.010+0000] {processor.py:186} INFO - Started process (PID=1169) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:34:19.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T06:34:19.015+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:34:19.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:34:19.059+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T06:34:19.088+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:34:19.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T06:34:19.117+0000] {logging_mixin.py:190} INFO - [2024-10-17T06:34:19.116+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T06:34:19.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.137 seconds
+[2024-10-17T07:20:06.895+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:20:06.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:20:06.926+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:20:06.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:20:07.546+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:20:11.778+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:20:11.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:20:12.205+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:20:12.204+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T07:20:12.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 5.573 seconds
+[2024-10-17T07:21:12.225+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:12.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:21:12.243+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:12.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:12.429+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:12.648+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:12.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:21:12.848+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:12.847+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-16 00:00:00+00:00, run_after=2024-10-17 00:00:00+00:00
+[2024-10-17T07:21:12.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.762 seconds
+[2024-10-17T07:21:50.183+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:50.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:21:50.224+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:50.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:50.506+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:21:50.766+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:50.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:21:52.092+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:21:52.085+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:21:52.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 2.263 seconds
+[2024-10-17T07:22:43.632+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:22:43.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:22:43.903+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:22:43.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:22:44.657+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:22:45.226+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:22:45.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:22:46.125+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:22:46.116+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:22:46.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 3.075 seconds
+[2024-10-17T07:38:04.881+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:04.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:38:04.886+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:04.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:04.917+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:04.960+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:04.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:38:04.998+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:04.998+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:38:05.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.151 seconds
+[2024-10-17T07:38:35.814+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:35.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:38:35.818+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:35.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:35.848+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:38:35.872+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:35.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:38:35.899+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:38:35.899+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:38:35.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.116 seconds
+[2024-10-17T07:39:06.224+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:06.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:39:06.228+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:06.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:06.260+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:06.278+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:06.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:39:06.303+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:06.303+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:39:06.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.108 seconds
+[2024-10-17T07:39:36.779+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:36.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:39:36.784+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:36.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:36.817+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:39:36.847+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:36.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:39:36.889+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:39:36.889+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:39:36.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.152 seconds
+[2024-10-17T07:40:07.843+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:07.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:40:07.907+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:07.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:08.213+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:08.410+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:08.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:40:08.706+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:08.705+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:40:08.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 1.119 seconds
+[2024-10-17T07:40:40.006+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:40.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:40:40.011+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:40.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:40.047+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:40:40.070+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:40.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:40:40.097+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:40:40.097+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:40:40.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.125 seconds
+[2024-10-17T07:41:10.454+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:10.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:41:10.459+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:10.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:10.489+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:10.510+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:10.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:41:10.535+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:10.535+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:41:10.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.113 seconds
+[2024-10-17T07:41:41.456+0000] {processor.py:186} INFO - Started process (PID=509) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:41.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:41:41.461+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:41.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:41.491+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:41:41.510+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:41.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:41:41.536+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:41:41.536+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:41:41.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.109 seconds
+[2024-10-17T07:42:11.704+0000] {processor.py:186} INFO - Started process (PID=570) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:11.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:42:11.713+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:11.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:11.763+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:11.814+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:11.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:42:11.890+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:11.890+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:42:11.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.256 seconds
+[2024-10-17T07:42:44.997+0000] {processor.py:186} INFO - Started process (PID=639) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:45.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:42:45.005+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:45.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:45.099+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:42:45.143+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:45.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:42:45.203+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:42:45.203+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:42:45.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.280 seconds
+[2024-10-17T07:43:15.593+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:15.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:43:15.599+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:15.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:15.635+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:15.659+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:15.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:43:15.688+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:15.687+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:43:15.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.134 seconds
+[2024-10-17T07:43:46.630+0000] {processor.py:186} INFO - Started process (PID=765) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:46.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:43:46.635+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:46.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:46.663+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:43:46.686+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:46.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:43:46.716+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:43:46.715+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:43:46.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.119 seconds
+[2024-10-17T07:44:18.834+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:44:18.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:44:18.838+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:44:18.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:44:18.867+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:44:18.888+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:44:18.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:44:18.911+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:44:18.911+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:44:18.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.104 seconds
+[2024-10-17T07:45:06.958+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:06.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:45:06.964+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:06.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:06.996+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:07.021+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:07.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:45:07.059+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:07.059+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:45:07.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.137 seconds
+[2024-10-17T07:45:37.721+0000] {processor.py:186} INFO - Started process (PID=954) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:37.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:45:37.726+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:37.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:37.755+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:45:37.776+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:37.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:45:37.804+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:45:37.804+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:45:37.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.110 seconds
+[2024-10-17T07:46:08.537+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:46:08.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:46:08.548+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:46:08.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:46:08.581+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:46:08.632+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:46:08.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:46:08.704+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:46:08.693+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:46:09.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.565 seconds
+[2024-10-17T07:56:57.995+0000] {processor.py:186} INFO - Started process (PID=1065) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:56:58.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:56:58.015+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:56:58.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:56:58.047+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:56:58.074+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:56:58.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:56:58.105+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:56:58.105+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:56:58.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.157 seconds
+[2024-10-17T07:57:28.496+0000] {processor.py:186} INFO - Started process (PID=1111) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:28.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:57:28.502+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:28.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:28.540+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:28.573+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:28.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:57:28.614+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:28.613+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:57:28.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.164 seconds
+[2024-10-17T07:57:58.972+0000] {processor.py:186} INFO - Started process (PID=1175) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:58.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:57:58.977+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:58.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:59.007+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:57:59.028+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:59.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:57:59.056+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:57:59.055+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:57:59.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.114 seconds
+[2024-10-17T07:58:30.010+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:58:30.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:58:30.014+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:58:30.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:58:30.040+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:58:30.061+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:58:30.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:58:30.085+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:58:30.085+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:58:30.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.106 seconds
+[2024-10-17T07:59:00.841+0000] {processor.py:186} INFO - Started process (PID=1301) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:00.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:59:00.846+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:00.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:00.872+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:00.893+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:00.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:59:00.917+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:00.917+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:59:00.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.107 seconds
+[2024-10-17T07:59:32.524+0000] {processor.py:186} INFO - Started process (PID=1364) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:32.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T07:59:32.528+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:32.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:32.559+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T07:59:32.579+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:32.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T07:59:32.604+0000] {logging_mixin.py:190} INFO - [2024-10-17T07:59:32.603+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T07:59:32.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.108 seconds
+[2024-10-17T08:00:05.713+0000] {processor.py:186} INFO - Started process (PID=1427) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:05.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:00:05.716+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:05.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:05.738+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:05.758+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:05.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:00:05.780+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:05.779+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:00:05.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.091 seconds
+[2024-10-17T08:00:38.922+0000] {processor.py:186} INFO - Started process (PID=1490) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:38.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:00:38.927+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:38.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:38.950+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:00:38.970+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:38.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:00:38.996+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:00:38.996+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:00:39.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.100 seconds
+[2024-10-17T08:01:09.791+0000] {processor.py:186} INFO - Started process (PID=1553) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:09.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:01:09.795+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:09.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:09.822+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:09.843+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:09.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:01:09.870+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:09.870+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:01:09.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.107 seconds
+[2024-10-17T08:01:40.263+0000] {processor.py:186} INFO - Started process (PID=1616) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:40.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:01:40.270+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:40.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:40.294+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:01:40.320+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:40.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:01:40.352+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:01:40.352+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:01:40.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.124 seconds
+[2024-10-17T08:02:11.070+0000] {processor.py:186} INFO - Started process (PID=1679) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:11.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:02:11.075+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:11.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:11.101+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:11.123+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:11.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:02:11.153+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:11.153+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:02:11.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.116 seconds
+[2024-10-17T08:02:41.701+0000] {processor.py:186} INFO - Started process (PID=1742) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:41.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:02:41.704+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:41.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:41.732+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:02:41.751+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:41.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:02:41.775+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:02:41.775+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:02:41.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.103 seconds
+[2024-10-17T08:03:14.972+0000] {processor.py:186} INFO - Started process (PID=1805) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:14.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:03:14.976+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:14.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:15.000+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:15.022+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:15.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:03:15.053+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:15.053+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:03:15.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.115 seconds
+[2024-10-17T08:03:47.304+0000] {processor.py:186} INFO - Started process (PID=1868) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:47.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:03:47.309+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:47.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:47.329+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:03:47.348+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:47.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:03:47.371+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:03:47.371+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:03:47.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.096 seconds
+[2024-10-17T08:06:19.637+0000] {processor.py:186} INFO - Started process (PID=1931) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:19.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:06:19.643+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:19.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:19.671+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:19.693+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:19.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:06:19.724+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:19.723+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:06:19.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.122 seconds
+[2024-10-17T08:06:50.302+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:50.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:06:50.307+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:50.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:50.341+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:06:50.361+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:50.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:06:50.386+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:06:50.386+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:06:50.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.112 seconds
+[2024-10-17T08:07:21.145+0000] {processor.py:186} INFO - Started process (PID=2057) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:21.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:07:21.151+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:21.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:21.182+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:21.208+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:21.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:07:21.243+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:21.243+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:07:21.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.134 seconds
+[2024-10-17T08:07:52.134+0000] {processor.py:186} INFO - Started process (PID=2120) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:52.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:07:52.141+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:52.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:52.168+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:07:52.188+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:52.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:07:52.214+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:07:52.214+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:07:52.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.109 seconds
+[2024-10-17T08:08:22.744+0000] {processor.py:186} INFO - Started process (PID=2183) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:22.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:08:22.748+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:22.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:22.768+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:22.789+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:22.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:08:22.821+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:22.820+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:08:22.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.104 seconds
+[2024-10-17T08:08:53.776+0000] {processor.py:186} INFO - Started process (PID=2246) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:53.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:08:53.781+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:53.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:53.810+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:08:53.828+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:53.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:08:53.853+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:08:53.853+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:08:53.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.112 seconds
+[2024-10-17T08:09:24.325+0000] {processor.py:186} INFO - Started process (PID=2309) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:24.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:09:24.331+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:24.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:24.359+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:24.381+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:24.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:09:24.410+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:24.409+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:09:24.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.116 seconds
+[2024-10-17T08:09:54.578+0000] {processor.py:186} INFO - Started process (PID=2372) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:54.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:09:54.584+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:54.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:54.605+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:09:54.623+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:54.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:09:54.646+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:09:54.646+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:09:54.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.094 seconds
+[2024-10-17T08:10:25.116+0000] {processor.py:186} INFO - Started process (PID=2435) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:25.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:10:25.121+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:25.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:25.152+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:25.172+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:25.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:10:25.198+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:25.197+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:10:25.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.112 seconds
+[2024-10-17T08:10:56.121+0000] {processor.py:186} INFO - Started process (PID=2498) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:56.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:10:56.126+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:56.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:56.147+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:10:56.170+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:56.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:10:56.198+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:10:56.198+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:10:56.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.108 seconds
+[2024-10-17T08:11:26.512+0000] {processor.py:186} INFO - Started process (PID=2561) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:26.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:11:26.517+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:26.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:26.544+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:26.565+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:26.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:11:26.589+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:26.589+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:11:26.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.105 seconds
+[2024-10-17T08:11:57.541+0000] {processor.py:186} INFO - Started process (PID=2624) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:57.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:11:57.548+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:57.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:57.587+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:11:57.612+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:57.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:11:57.646+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:11:57.646+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:11:57.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.138 seconds
+[2024-10-17T08:12:28.269+0000] {processor.py:186} INFO - Started process (PID=2687) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:28.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:12:28.274+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:28.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:28.306+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:28.325+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:28.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:12:28.350+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:28.349+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:12:28.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.108 seconds
+[2024-10-17T08:12:58.426+0000] {processor.py:186} INFO - Started process (PID=2750) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:58.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:12:58.430+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:58.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:58.454+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:12:58.474+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:58.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:12:58.499+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:12:58.499+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:12:58.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.105 seconds
+[2024-10-17T08:13:28.587+0000] {processor.py:186} INFO - Started process (PID=2813) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:13:28.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:13:28.591+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:13:28.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:13:28.618+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:13:28.639+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:13:28.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:13:28.667+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:13:28.666+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:13:28.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.107 seconds
+[2024-10-17T08:53:15.757+0000] {processor.py:186} INFO - Started process (PID=2870) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:15.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:53:15.764+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:15.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:15.804+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:15.848+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:15.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:53:15.929+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:15.929+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:53:16.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.256 seconds
+[2024-10-17T08:53:46.178+0000] {processor.py:186} INFO - Started process (PID=2933) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:46.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:53:46.183+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:46.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:46.217+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:53:46.241+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:46.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:53:46.268+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:53:46.268+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:53:46.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.119 seconds
+[2024-10-17T08:54:16.877+0000] {processor.py:186} INFO - Started process (PID=2996) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:16.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:54:16.882+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:16.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:16.920+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:16.944+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:16.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:54:16.979+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:16.979+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:54:17.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.136 seconds
+[2024-10-17T08:54:49.589+0000] {processor.py:186} INFO - Started process (PID=3059) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:49.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:54:49.597+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:49.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:49.640+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:54:49.691+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:49.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:54:49.756+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:54:49.756+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:54:50.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 0.581 seconds
+[2024-10-17T08:55:23.278+0000] {processor.py:186} INFO - Started process (PID=3122) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:55:23.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:55:23.346+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:55:23.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:55:23.823+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:55:23.955+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:55:23.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:55:24.135+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:55:24.134+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:55:24.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 1.103 seconds
+[2024-10-17T08:56:05.141+0000] {processor.py:186} INFO - Started process (PID=3182) to work on /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:56:05.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_push_gcs.py for tasks to queue
+[2024-10-17T08:56:05.237+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:56:05.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:56:06.068+0000] {processor.py:925} INFO - DAG(s) 'fetch_cricket_stats' retrieved from /opt/airflow/dags/dag_extract_push_gcs.py
+[2024-10-17T08:56:06.374+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:56:06.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T08:56:06.812+0000] {logging_mixin.py:190} INFO - [2024-10-17T08:56:06.811+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_cricket_stats to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-17T08:56:07.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_push_gcs.py took 2.121 seconds
